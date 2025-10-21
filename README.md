@@ -36,34 +36,36 @@ Ensure you have the following installed:
 ---
 
 ### 2️⃣ Clone the Repository
-
+```bash
 git clone https://github.com/balajishiva2001/sample-aop-project.git  
 cd sample-aop-project
+```
 
 ---
 
 ### 3️⃣ Build the Project
 
 Using Maven Wrapper:
-
+```bash
 ./mvnw clean install
-
+```
 Or Maven directly:
-
+```bash
 mvn clean install
+```
 
 ---
 
 ### 4️⃣ Run the Application
 
 Start the Spring Boot server:
-
+```bash
 ./mvnw spring-boot:run
-
+```
 Or:
-
+```bash
 mvn spring-boot:run
-
+```
 Access the app at: http://localhost:8080
 
 ---
@@ -80,7 +82,7 @@ POST   | /api/hello           | Accepts a name and returns a personalized greeti
 ---
 
 ## 📂 Project Structure
-
+```
 sample-aop-project/  
 ├── src/  
 │   ├── main/  
@@ -90,6 +92,7 @@ sample-aop-project/
 ├── mvnw                            # Maven wrapper scripts  
 ├── pom.xml                        # Maven build file  
 └── README.md                      # This file  
+```
 
 ---
 
